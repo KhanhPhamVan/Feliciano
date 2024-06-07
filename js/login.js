@@ -21,7 +21,7 @@ summit.addEventListener('click',()=>{
     var email=document.querySelector('#email').value;
     var password=document.querySelector('#password').value;
     if(flag==true&&email=='admin123@gmail.com'&&password=='Admin123')
-        window.location.href = './admin.html';
+        window.location.href = './Admin.html';
 })
 var flag=true
 //Validation
